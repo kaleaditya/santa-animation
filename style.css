@@ -52,12 +52,10 @@ h2{ font-size: 120px; line-height: 120px; text-align: center; color: #ceb960;
 .snow span:nth-child(even){
   width: 10px; height: 10px;
 }
-
   @keyframes animate {
     0%{
       transform: translateY(-200vh);
     }
-    
     50%{
       transform: translateY(200vh);
     }
@@ -84,5 +82,5 @@ h2{ font-size: 120px; line-height: 120px; text-align: center; color: #ceb960;
   }
   @keyframes top{
     from {bottom:-20%; right:00vh; opacity: 1; }
-    to   {  bottom: 50%;  }
+    to   {  bottom: 50%; opacity: 1; }
   }
